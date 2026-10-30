@@ -48,18 +48,18 @@ Façam os pedidos na ordem, com o banco vazio. Preencham as duas últimas coluna
 
 | Passo | O que fazer | Status esperado | Rota que usamos | Status que deu |
 | --- | --- | --- | --- | --- |
-| 1 | Cadastrar a sala de código LAB-01, nome Lab Informatica, capacidade 30 | 201 | | |
-| 2 | Cadastrar outra sala com o mesmo código LAB-01 | 409 | | |
-| 3 | Cadastrar uma sala sem nome | 400 | | |
-| 4 | Reservar a sala 1 | 200 | | |
-| 5 | Reservar a sala 1 de novo | 409 | | |
-| 6 | Excluir a sala 1 (que está reservada) | 409 | | |
-| 7 | Liberar a sala 1 | 200 | | |
-| 8 | Liberar a sala 1 de novo | 409 | | |
-| 9 | Excluir a sala 1 | 204 | | |
-| 10 | Buscar a sala 1 | 404 | | |
+| 1 | Cadastrar a sala de código LAB-01, nome Lab Informatica, capacidade 30 | 201 | | | 201
+| 2 | Cadastrar outra sala com o mesmo código LAB-01 | 409 | | | 409
+| 3 | Cadastrar uma sala sem nome | 400 | | | 400
+| 4 | Reservar a sala 1 | 200 | | | 200
+| 5 | Reservar a sala 1 de novo | 409 | | | 409
+| 6 | Excluir a sala 1 (que está reservada) | 409 | | | 409
+| 7 | Liberar a sala 1 | 200 | | | 200
+| 8 | Liberar a sala 1 de novo | 409 | | | 409
+| 9 | Excluir a sala 1 | 204 | | | 204
+| 10 | Buscar a sala 1 | 404 | | | 404
 
-Se algum passo não bateu, escrevam aqui o que aconteceu:
+Se algum passo não bateu, escrevam aqui o que aconteceu: Todos os resultados bateram com o que o professor pediu.
 
 ## Arquivo do processo
 
